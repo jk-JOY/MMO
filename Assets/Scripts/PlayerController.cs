@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
         GameManager.Input.keyAction -= OnKeyboard; //미연의 방지,  구독초기화 
         GameManager.Input.keyAction += OnKeyboard;
         //인풋 매니저한테 혹시 어떤 키가 눌린다면 이 함수를 실행해주세요. = 구독
+        
     }
     void Update()
     {
